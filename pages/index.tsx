@@ -45,7 +45,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/MadridReal.png" />
       </Head>
 
-      <header className="flex items-center p-4 space-x-3">
+      <header className="flex items-center p-4 space-x-3 overflow-hidden">
       <nav>
         <div className="flex items-center space-x-4">
           <button 
@@ -63,8 +63,8 @@ const Home: NextPage = () => {
         </div>
         </nav>
         
-        <div className={`flex justify-center border-b-8 ${kit.borderOut} w-80 rounded-b-full`}>
-        <div className={`flex justify-center border-4 ${kit.borderIn} w-80 rounded-b-full rounded-t-3xl p-6`}>
+        <div className={`flex justify-center border-b-8 ${kit.borderOut} w-64 rounded-b-full`}>
+        <div className={`flex justify-center border-4 ${kit.borderIn} w-64 rounded-b-full rounded-t-3xl p-6`}>
           <Link href="/"><a className="flex flex-col justify-center items-center">
             <img className="w-32" src="/MadridReal.png"/>
             <span className="text-2xl">¡Hala Madrid!</span>
@@ -91,7 +91,7 @@ const Home: NextPage = () => {
 
       </header>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center text-center">
+      <main className="flex w-full flex-1 flex-col items-center justify-center text-center overflow-hidden">
       <img className="fixed top-1/3 right-2 w-40 md:w-52 lg:w-64" src="/MadridReal.png"/>
       <div className="fixed top-2/3">
       <div className={`flex flex-col items-center justify-center ${kit.nameColor}`}>
@@ -101,7 +101,7 @@ const Home: NextPage = () => {
       </div>
       </main>
 
-      <footer className="flex h-24 w-full items-center justify-center border-t">
+      <footer className="flex h-24 w-full items-center justify-center border-t overflow-hidden">
       <img className="w-20" src="/MadridUcl.png"/>
       </footer>
     </div>
