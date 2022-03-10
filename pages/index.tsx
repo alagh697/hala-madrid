@@ -63,8 +63,8 @@ const Home: NextPage = () => {
         </div>
         </nav>
         
-        <div className={`flex justify-center border-b-8 ${kit.borderOut} w-64 rounded-b-full`}>
-        <div className={`flex justify-center border-4 ${kit.borderIn} w-64 rounded-b-full rounded-t-3xl p-6`}>
+        <div className={`flex justify-center border-b-8 ${kit.borderOut} w-60 rounded-b-full`}>
+        <div className={`flex justify-center border-4 ${kit.borderIn} w-60 rounded-b-full rounded-t-3xl p-6`}>
           <Link href="/"><a className="flex flex-col justify-center items-center">
             <img className="w-32" src="/MadridReal.png"/>
             <span className="text-2xl">¡Hala Madrid!</span>
@@ -101,7 +101,7 @@ const Home: NextPage = () => {
       </div>
       </main>
 
-      <footer className="flex h-24 w-full items-center justify-center border-t overflow-hidden">
+      <footer className="flex w-full items-center justify-center border-t overflow-hidden">
       <img className="w-20" src="/MadridUcl.png"/>
       </footer>
     </div>
