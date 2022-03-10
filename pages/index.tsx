@@ -45,7 +45,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/MadridReal.png" />
       </Head>
 
-      <header className="flex items-center p-4 space-x-3 overflow-hidden">
+      <header className="flex justify-center items-center p-4 space-x-3 overflow-hidden">
       <nav>
         <div className="flex items-center space-x-3">
           <button 
@@ -63,11 +63,11 @@ const Home: NextPage = () => {
         </div>
         </nav>
         
-        <div className={`flex justify-center border-b-8 ${kit.borderOut} w-60 rounded-b-full`}>
-        <div className={`flex justify-center border-4 ${kit.borderIn} w-60 rounded-b-full rounded-t-3xl p-6`}>
+        <div className={`flex justify-center items-center border-b-8 ${kit.borderOut} w-1/2 rounded-b-full`}>
+        <div className={`flex justify-center items-center border-4 ${kit.borderIn} w-full rounded-b-full rounded-t-3xl p-6`}>
           <Link href="/"><a className="flex flex-col justify-center items-center">
             <img className="w-32" src="/MadridReal.png"/>
-            <span className="text-2xl">¡Hala Madrid!</span>
+            <span className="text-2xl text-center">¡Hala Madrid!</span>
           </a></Link>
         </div>
         </div>
@@ -92,11 +92,12 @@ const Home: NextPage = () => {
       </header>
 
       <main className="flex w-full flex-1 flex-col items-center justify-center text-center overflow-hidden">
-      <img className="fixed top-1/3 right-2 w-40 md:w-52 lg:w-64" src="/MadridReal.png"/>
-      <div className="fixed top-2/3">
+      <img className="fixed top-1/3 right-1 w-32 md:w-52 lg:w-64" src="/MadridReal.png"/>
+      <img className="fixed top-1/3 left-1 w-32 md:w-52 lg:w-64" src="/MadridUcl.png"/>
+      <div className="fixed top-3/4">
       <div className={`flex flex-col items-center justify-center ${kit.nameColor}`}>
-        <span className="text-5xl font-bold uppercase">Benzema</span>
-        <span className="text-9xl font-bold">9</span>
+        <span className="text-3xl font-bold uppercase">Benzema</span>
+        <span className="text-7xl font-bold">9</span>
       </div>
       </div>
       </main>
