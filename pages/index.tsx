@@ -38,7 +38,7 @@ const Home: NextPage = () => {
   const [kit, setKit] = useState(home);
 
   return (
-    <div className={`h-screen w-screen overflow-hidden font-body
+    <div className={`flex h-screen flex-col items-center justify-center w-screen overflow-hidden font-body
     ${kit.jerseyColor} ${kit.textColor}`}>
       <Head>
         <title>Hala Madrid!</title>
@@ -101,7 +101,9 @@ const Home: NextPage = () => {
       </div>
       </main>
 
-      
+      <footer className="hidden w-full items-center justify-center border-t overflow-hidden">
+      <img className="w-20" src="/MadridUcl.png"/>
+      </footer>
     </div>
   )
 }

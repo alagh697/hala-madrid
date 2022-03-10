@@ -9,3 +9,7 @@
         @apply  flex items-center justify-center space-x-2 text-3xl uppercase hover:text-amber-400;
     }
 }
+
+html, body {
+    overflow: hidden;
+}
