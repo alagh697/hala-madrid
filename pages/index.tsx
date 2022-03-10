@@ -47,7 +47,7 @@ const Home: NextPage = () => {
 
       <header className="flex items-center p-4 space-x-3 overflow-hidden">
       <nav>
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-3">
           <button 
           onClick={() => setKit(home)}
           className='kit-button'>
@@ -101,7 +101,7 @@ const Home: NextPage = () => {
       </div>
       </main>
 
-      <footer className="flex w-full items-center justify-center border-t overflow-hidden">
+      <footer className="fixed bottom-0 w-full items-center justify-center border-t overflow-hidden">
       <img className="w-20" src="/MadridUcl.png"/>
       </footer>
     </div>
